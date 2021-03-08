@@ -5,8 +5,8 @@ A core feature that many users expect from their wearable devices is pulse rate 
 
 This project has 2 main parts:
 
-- [Part 1](#part-1-pulse-rate-algorithm-overview) - I developed a **Pulse Rate Algorithm** on the given training data.
-- [Part 2](#part-2-clinical-application-overview) - I computed clinically meaningful features and discover healthcare trends.
+- [Part 1](https://github.com/iDataist/Motion-Compensated-Pulse-Rate-Estimation/blob/master/part_1/pulse_rate.ipynb) - I developed a **Pulse Rate Algorithm** on the given training data.
+- [Part 2](https://github.com/iDataist/Motion-Compensated-Pulse-Rate-Estimation/blob/master/part_2/clinical_app.ipynb) - I computed clinically meaningful features and discover healthcare trends.
 
 ## Physiological Mechanics of Pulse Rate Estimation
 Pulse rate is typically estimated by using the PPG sensor. When the ventricles contract, the capilaries in the wrist fill with blood. The (typically green) light emitted by the PPG sensor is absorbed by red blood cells in these capilaries and the photodetector will see the drop in reflected light. When the blood returns to the heart, fewer red blood cells in the wrist absorb the light and the photodetector sees an increase in reflected light. The period of this oscillating waveform is the pulse rate.
